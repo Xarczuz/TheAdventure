@@ -10,6 +10,6 @@ public class Scr {
 		String str = br.readLine();
 		// br.close();
 		return str;
-		//jaskdlfjkasf
+		//jaskdlfjkasfasfadsfasfs fasdf asfads
 	}
 }
