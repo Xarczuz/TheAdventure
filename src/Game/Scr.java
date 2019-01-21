@@ -8,7 +8,7 @@ public class Scr {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine();
-		// br.close();
+		// br.close();gfgd
 		return str;
 		
 	}
