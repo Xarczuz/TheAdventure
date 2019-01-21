@@ -8,8 +8,8 @@ public class Scr {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine();
-		// br.close();gfgd
+		// br.close();gfgd jksdjflsjkfjsdljfdsk jskdjf
 		return str;
-
+		
 	}
 }
