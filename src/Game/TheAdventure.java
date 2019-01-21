@@ -16,7 +16,6 @@ public class TheAdventure {
 			System.out.println("Game Menu");
 			System.out.println("-----------------------\n");
 			System.out.println("Start game, Y/N: ");
-			qg1.questions.get(0).getQuestion();
 			qg1.publish_question();
 			if(tmp.equalsIgnoreCase("q")) {
 				System.out.println("The End!");
