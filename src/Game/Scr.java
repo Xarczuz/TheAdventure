@@ -10,5 +10,6 @@ public class Scr {
 		String str = br.readLine();
 		// br.close();
 		return str;
+		
 	}
 }
