@@ -15,9 +15,12 @@ public class Quiz_Generator {
 				new String[] { "Stockholm", "Oslo", "Helsingfors", "Köpehamn" }, 100);
 		Quiz q2 = new Quiz("Vad heter USA's president?", "Donald Trump",
 				new String[] { "Donald Trump", "Donald Duck", "Donald Hump", "Donald Gump" }, 100);
+		Quiz q3 = new Quiz("Vem är sveriges Statsminister år 2019?", "Stefan löfven",
+				new String[] { "Stefan löfven", "Stefan lööfven", "Stefan löfvenn", "Stefan löfeven" }, 100);
 
 		questions.add(q1);
 		questions.add(q2);
+		questions.add(q3);
 
 		Collections.shuffle(questions);
 	}
