@@ -22,6 +22,7 @@ public class Quiz_Generator {
 		questions.add(q2);
 		questions.add(q3);
 
+		
 		Collections.shuffle(questions);
 	}
 
