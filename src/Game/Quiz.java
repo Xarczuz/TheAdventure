@@ -2,9 +2,9 @@ package Game;
 
 public class Quiz {
 	
-	String question, answer;
-	String[] wrong_answers;
-	int quiz_score;
+	private String question, answer,selectAnswer;
+	private String[] wrong_answers;
+	private int quiz_score;
 
 	public Quiz(String question, String answer, String[] wrong_answers, int quiz_score) {
 		this.question = question;
@@ -27,6 +27,14 @@ public class Quiz {
 
 	public int getQuiz_score() {
 		return quiz_score;
+	}
+
+	public String getSelectAnswer() {
+		return selectAnswer;
+	}
+
+	public void setSelectAnswer(String selectAnswer) {
+		this.selectAnswer = selectAnswer;
 	}
 	
 	

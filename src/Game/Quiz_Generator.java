@@ -6,13 +6,15 @@ import java.util.Collections;
 
 public class Quiz_Generator {
 
-	ArrayList<Quiz> questions = new ArrayList<Quiz>();
+	private ArrayList<Quiz> questions = new ArrayList<Quiz>();
 
-	Quiz activeQuiz;
-	
+	private Quiz activeQuiz;
+
 	public void create_quiestions() {
-		Quiz q1 = new Quiz("Sveriges huvudstad?", "Stockholm", new String[] { "Stockholm", "Oslo", "Helsingfors", "Köpehamn" }, 100);
-		Quiz q2 = new Quiz("Vad heter USA's president?", "Donald Trump",new String[] { "Donald Trump", "Donald Duck", "Donald Hump", "Donald Gump" }, 100);
+		Quiz q1 = new Quiz("Sveriges huvudstad?", "Stockholm",
+				new String[] { "Stockholm", "Oslo", "Helsingfors", "Köpehamn" }, 100);
+		Quiz q2 = new Quiz("Vad heter USA's president?", "Donald Trump",
+				new String[] { "Donald Trump", "Donald Duck", "Donald Hump", "Donald Gump" }, 100);
 
 		questions.add(q1);
 		questions.add(q2);
@@ -25,14 +27,46 @@ public class Quiz_Generator {
 	}
 
 	public void publish_question() {
-		
+
 		if (questions.size() > 0) {
-			
+
 			this.activeQuiz = getQuestion();
-			System.out.println(this.activeQuiz.question);
+			System.out.println(this.activeQuiz.getQuestion());
 			String[] answers = this.activeQuiz.getWrong_answers();
 			Collections.shuffle(Arrays.asList(answers));
-			System.out.printf("A: %-10s\tB: %-10s\tC: %-10s\tD: %-10s",answers[0],answers[1],answers[2],answers[3]);
+			for (int i = 0; i < answers.length; i++) {
+				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 0) {
+					this.activeQuiz.setSelectAnswer("a");
+				}
+				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 1) {
+					this.activeQuiz.setSelectAnswer("b");
+				}
+				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 2) {
+					this.activeQuiz.setSelectAnswer("c");
+				}
+				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 3) {
+					this.activeQuiz.setSelectAnswer("d");
+				}
+			}
+			System.out.printf("A: %-10s\tB: %-10s\tC: %-10s\tD: %-10s\n", answers[0], answers[1], answers[2],
+					answers[3]);
 		}
+	}
+
+	public int checkAnswer(String answer) {
+
+		if (answer.equalsIgnoreCase(activeQuiz.getSelectAnswer())) {
+			return activeQuiz.getQuiz_score();
+		} else {
+			return activeQuiz.getQuiz_score() / 2;
+		}
+	}
+
+	public ArrayList<Quiz> getQuestions() {
+		return questions;
+	}
+
+	public Quiz getActiveQuiz() {
+		return activeQuiz;
 	}
 }
