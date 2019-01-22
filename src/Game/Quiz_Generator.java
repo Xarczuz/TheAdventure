@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class Quiz_Generator {
 
-	ArrayList<Quiz> questions = new ArrayList();
+	ArrayList<Quiz> questions = new ArrayList<Quiz>();
 
 	Quiz activeQuiz;
 	
