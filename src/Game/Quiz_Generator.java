@@ -37,14 +37,11 @@ public class Quiz_Generator {
 			for (int i = 0; i < answers.length; i++) {
 				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 0) {
 					this.activeQuiz.setSelectAnswer("a");
-				}
-				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 1) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 1) {
 					this.activeQuiz.setSelectAnswer("b");
-				}
-				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 2) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 2) {
 					this.activeQuiz.setSelectAnswer("c");
-				}
-				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 3) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 3) {
 					this.activeQuiz.setSelectAnswer("d");
 				}
 			}
