@@ -38,7 +38,7 @@ public class TheAdventure {
 					System.out.println("Wrong!");
 				}
 				p1.player_stats();
-				if (qg1.getQuestions().isEmpty() || tmp.equalsIgnoreCase("q")) {
+				if (p1.getPlayer_lives()==0||qg1.getQuestions().isEmpty() || tmp.equalsIgnoreCase("q")) {
 					System.out.println("The End!");
 					break;
 				}
