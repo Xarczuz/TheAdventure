@@ -1,8 +1,9 @@
 package Game;
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 public class Quiz_Data {
 
@@ -10,13 +11,13 @@ public class Quiz_Data {
 		// We need to provide file path as the parameter:
 		// double backquote is to avoid compiler interpret words
 		// like \test as \t (ie. as a escape sequence)
-		File file = new File("C:\\Users\\Perham\\git\\TheAdventure\\src\\Game\\db.txt");
 
-		BufferedReader br = new BufferedReader(new FileReader(file));
+		Object obj = new JSONParser().parse(new FileReader("C:\\Users\\Perham\\git\\TheAdventure\\src\\Game\\db.json"));
+		JSONObject results = (JSONObject) obj;
 
-		String st;
-		while ((st = br.readLine()) != null)
+		String question = (String) results.get("type");
 
-			System.out.println(st);
+		System.out.println(question);
+
 	}
 }
