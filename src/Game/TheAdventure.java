@@ -19,31 +19,50 @@ public class TheAdventure {
 		p1.player_stats();
 		System.out.println("Game Menu");
 		System.out.println("-----------------------\n");
-		System.out.println("Start game, Y/N: ");
-		tmp = Scr.inStr();
-		if (tmp.equalsIgnoreCase("n")) {
-			System.out.println("The End!");
-		} else {
-			while (tmp != "q") {
-				qg1.publish_question();
-				tmp = Scr.inStr();
-				int score = qg1.checkAnswer(tmp.toLowerCase());
 
-				if (score == qg1.getActiveQuiz().getQuiz_score()) {
-					System.out.println("Correct: " + qg1.getActiveQuiz().getAnswer());
-					p1.setPlayer_score(p1.getPlayer_score() + score);
-				} else {
-					p1.setPlayer_lives(p1.getPlayer_lives() - 1);
-					p1.setPlayer_score(p1.getPlayer_score() - score);
-					System.out.println("Wrong!");
-				}
+		while (true) {
+			System.out.println("Start game, Y/N: ");
+			System.out.println("1. Start Game");
+			System.out.println("2. End Game");
+			System.out.println("3. Change Name");
+			tmp = Scr.inStr();
+			
+			if (tmp.equalsIgnoreCase("1")) {
+				break;
+			}
+			if (tmp.equalsIgnoreCase("2")) {
+				System.out.println("The End!");
+				return;
+			}
+			if (tmp.equalsIgnoreCase("3")) {
+				System.out.print("Input name: ");
+				String name = Scr.inStr();
+				p1.setName(name);
 				p1.player_stats();
-				if (p1.getPlayer_lives()==0||qg1.getQuestions().isEmpty() || tmp.equalsIgnoreCase("q")) {
-					System.out.println("The End!");
-					break;
-				}
 			}
 		}
+		System.out.println("Hit q to exit\n");
+
+		while (tmp != "q") {
+			qg1.publish_question();
+			tmp = Scr.inStr();
+			int score = qg1.checkAnswer(tmp.toLowerCase());
+
+			if (score == qg1.getActiveQuiz().getQuiz_score()) {
+				System.out.println("Correct: " + qg1.getActiveQuiz().getAnswer() + ", Score: " + score);
+				p1.setPlayer_score(p1.getPlayer_score() + score);
+			} else {
+				p1.setPlayer_lives(p1.getPlayer_lives() - 1);
+				p1.setPlayer_score(p1.getPlayer_score() - score);
+				System.out.println("Wrong!, Score: -" + score);
+			}
+			p1.player_stats();
+			if (p1.getPlayer_lives() == 0 || qg1.getQuestions().isEmpty() || tmp.equalsIgnoreCase("q")) {
+				System.out.println("The End!");
+				break;
+			}
+		}
+
 	}
 
 }

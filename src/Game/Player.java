@@ -12,9 +12,12 @@ public class Player {
 	}
 	
 	public void player_stats() {
+		System.out.println("******************************");
 		System.out.println("Player -> " + name);
 		System.out.println("Your Points: " + player_score);
 		System.out.println("Your lives: " + player_lives);
+		System.out.println("******************************");
+		
 	}
 
 	public String getName() {
