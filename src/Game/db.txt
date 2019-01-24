@@ -1,0 +1,239 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What name did &quot;Mario&quot;, from &quot;Super Mario Brothers&quot;, originally have?",
+            "correct_answer": "Ossan",
+            "incorrect_answers": [
+                "Jumpman",
+                "Mr. Video",
+                "Mario"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How many times do you fight Gilgamesh in &quot;Final Fantasy 5&quot;?",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                "4",
+                "5",
+                "3"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "There are 6 legendary cards in &quot;Clash Royale&quot;.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Animal Crossing series, which flower is erroneously called the &quot;Jacob&#039;s Ladder&quot;?",
+            "correct_answer": "Lily of the Valley",
+            "incorrect_answers": [
+                "Hydrangea",
+                "Harebell",
+                "Yarrow"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?",
+            "correct_answer": "2, 3, 1",
+            "incorrect_answers": [
+                "1, 2, 3",
+                "1, 3, 2",
+                "2, 1, 3"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Metal Gear Solid V: The Phantom Pain runs on the Fox Engine.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the title of song on the main menu in Halo?",
+            "correct_answer": "Halo",
+            "incorrect_answers": [
+                "Opening Suite",
+                "Shadows",
+                "Suite Autumn"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In Terraria, which of the following items does the Martian Saucer mini-boss NOT drop?",
+            "correct_answer": "Drill Containment Unit",
+            "incorrect_answers": [
+                "Anti-Gravity Hook",
+                "Influx Waver",
+                "Cosmic Car Key"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which game was the first time Mario was voiced by Charles Martinet?",
+            "correct_answer": "Mario&#039;s Game Gallery",
+            "incorrect_answers": [
+                "Super Mario 64",
+                "Mario Tennis",
+                "Dr. Mario 64"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is NOT a playable character race in the video game &quot;Starbound&quot;?",
+            "correct_answer": "Fenerox",
+            "incorrect_answers": [
+                "Floran",
+                "Novakid",
+                "Hylotl"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the 2015 RPG &quot;Undertale&quot;, which character do you first encounter after falling down into the underground?",
+            "correct_answer": "Flowey",
+            "incorrect_answers": [
+                "Toriel",
+                "Sans",
+                "Papyrus"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which Overwatch character says the line &quot;Heroes never die!&quot;?",
+            "correct_answer": "Mercy",
+            "incorrect_answers": [
+                "Reaper",
+                "Sonic",
+                "Ana"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the first primary weapon the player gets in &quot;PAYDAY: The Heist&quot;?",
+            "correct_answer": "AMCAR-4",
+            "incorrect_answers": [
+                "Brenner 21",
+                "Reinbeck",
+                "M308"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Mario &amp; Sonic at the Olympic Games&quot;, characters are split into how many types?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "6",
+                "5",
+                "3"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Who stars in Brutal Legend?",
+            "correct_answer": "Jack Black",
+            "incorrect_answers": [
+                "Kanye West",
+                "Lemmy",
+                "Ozzy Osbourne"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many different notes is the tune, &quot;Song of Healing&quot;, comprised of in &quot;The Legend of Zelda: Majora&#039;s Mask&quot;?",
+            "correct_answer": "3",
+            "incorrect_answers": [
+                "4",
+                "1",
+                "6"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "The Fiat Multipla is a drivable car in &quot;Forza Horizon 3&quot;.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the subtitle for Gran Turismo 3?",
+            "correct_answer": "A-Spec",
+            "incorrect_answers": [
+                "Championship",
+                "Drive",
+                "Nitro"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In Guild Wars 2, what is the name of the legendary weapon that is an alicorn-styled bow?",
+            "correct_answer": "The Dreamer",
+            "incorrect_answers": [
+                "Kudzu",
+                "The Moot",
+                "Astralaria"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the plane of existence in MicroProse&#039;s 1997 &quot;Magic the Gathering&quot;?",
+            "correct_answer": "Shandalar",
+            "incorrect_answers": [
+                "Theros",
+                "Ravnica",
+                "Amonkhet"
+            ]
+        }
+    ]
+}
