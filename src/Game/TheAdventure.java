@@ -12,12 +12,7 @@ public class TheAdventure {
 		Quiz_Generator qg1 = new Quiz_Generator();
 		Quiz_Data data = new Quiz_Data();
 
-		try {
-			data.quizBank();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		data.quizBank();
 
 		// ******************
 
