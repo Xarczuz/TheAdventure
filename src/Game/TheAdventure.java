@@ -10,7 +10,15 @@ public class TheAdventure {
 		String tmp = "";
 		// Generate Questions
 		Quiz_Generator qg1 = new Quiz_Generator();
-		qg1.create_quiestions();
+		Quiz_Data data = new Quiz_Data();
+
+		try {
+			data.quizBank();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		// ******************
 
 		Player p1 = new Player();
@@ -26,7 +34,7 @@ public class TheAdventure {
 			System.out.println("2. End Game");
 			System.out.println("3. Change Name");
 			tmp = Scr.inStr();
-			
+
 			if (tmp.equalsIgnoreCase("1")) {
 				break;
 			}

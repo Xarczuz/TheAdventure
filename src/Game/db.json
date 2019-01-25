@@ -1,11 +1,11 @@
 {
-   
+    
     "results": [
         {
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "What name did &quot;Mario&quot;, from &quot;Super Mario Brothers&quot;, originally have?",
+            "question": "What name did Mario, from Super Mario Brothers, originally have?",
             "correct_answer": "Ossan",
             "incorrect_answers": [
                 "Jumpman",
@@ -17,7 +17,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "How many times do you fight Gilgamesh in &quot;Final Fantasy 5&quot;?",
+            "question": "How many times do you fight Gilgamesh in Final Fantasy 5?",
             "correct_answer": "6",
             "incorrect_answers": [
                 "4",
@@ -29,7 +29,7 @@
             "category": "Entertainment: Video Games",
             "type": "boolean",
             "difficulty": "easy",
-            "question": "There are 6 legendary cards in &quot;Clash Royale&quot;.",
+            "question": "There are 6 legendary cards in Clash Royale.",
             "correct_answer": "False",
             "incorrect_answers": [
                 "True"
@@ -39,7 +39,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "In the Animal Crossing series, which flower is erroneously called the &quot;Jacob&#039;s Ladder&quot;?",
+            "question": "In the Animal Crossing series, which flower is erroneously called the Jacob&#039;s Ladder?",
             "correct_answer": "Lily of the Valley",
             "incorrect_answers": [
                 "Hydrangea",
@@ -51,7 +51,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?",
+            "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in Ocarina of Time?",
             "correct_answer": "2, 3, 1",
             "incorrect_answers": [
                 "1, 2, 3",
@@ -109,7 +109,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "Which of these is NOT a playable character race in the video game &quot;Starbound&quot;?",
+            "question": "Which of these is NOT a playable character race in the video game Starbound?",
             "correct_answer": "Fenerox",
             "incorrect_answers": [
                 "Floran",
@@ -121,7 +121,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "In the 2015 RPG &quot;Undertale&quot;, which character do you first encounter after falling down into the underground?",
+            "question": "In the 2015 RPG Undertale, which character do you first encounter after falling down into the underground?",
             "correct_answer": "Flowey",
             "incorrect_answers": [
                 "Toriel",
@@ -133,7 +133,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "Which Overwatch character says the line &quot;Heroes never die!&quot;?",
+            "question": "Which Overwatch character says the line Heroes never die!?",
             "correct_answer": "Mercy",
             "incorrect_answers": [
                 "Reaper",
@@ -145,7 +145,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "What is the first primary weapon the player gets in &quot;PAYDAY: The Heist&quot;?",
+            "question": "What is the first primary weapon the player gets in PAYDAY: The Heist?",
             "correct_answer": "AMCAR-4",
             "incorrect_answers": [
                 "Brenner 21",
@@ -157,7 +157,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "In &quot;Mario &amp; Sonic at the Olympic Games&quot;, characters are split into how many types?",
+            "question": "In Mario &amp; Sonic at the Olympic Games, characters are split into how many types?",
             "correct_answer": "4",
             "incorrect_answers": [
                 "6",
@@ -181,7 +181,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "How many different notes is the tune, &quot;Song of Healing&quot;, comprised of in &quot;The Legend of Zelda: Majora&#039;s Mask&quot;?",
+            "question": "How many different notes is the tune, Song of Healing, comprised of in The Legend of Zelda: Majora&#039;s Mask?",
             "correct_answer": "3",
             "incorrect_answers": [
                 "4",
@@ -193,7 +193,7 @@
             "category": "Entertainment: Video Games",
             "type": "boolean",
             "difficulty": "medium",
-            "question": "The Fiat Multipla is a drivable car in &quot;Forza Horizon 3&quot;.",
+            "question": "The Fiat Multipla is a drivable car in Forza Horizon 3.",
             "correct_answer": "False",
             "incorrect_answers": [
                 "True"
@@ -227,7 +227,7 @@
             "category": "Entertainment: Video Games",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "What is the plane of existence in MicroProse&#039;s 1997 &quot;Magic the Gathering&quot;?",
+            "question": "What is the plane of existence in MicroProse&#039;s 1997 Magic the Gathering?",
             "correct_answer": "Shandalar",
             "incorrect_answers": [
                 "Theros",

@@ -10,27 +10,11 @@ public class Quiz_Generator {
 
 	private Quiz activeQuiz;
 
-	public void create_quiestions() {
-		Quiz q1 = new Quiz("Sveriges huvudstad?", "Stockholm",
-				new String[] { "Stockholm", "Oslo", "Helsingfors", "Köpehamn" }, 100, "Sweden");
-		Quiz q2 = new Quiz("Vad heter USA's president?", "Donald Trump",
-				new String[] { "Donald Trump", "Donald Duck", "Donald Hump", "Donald Gump" }, 100, "USA");
-		Quiz q3 = new Quiz("Vem är sveriges Statsminister år 2019?", "Stefan löfven",
-				new String[] { "Stefan löfven", "Stefan lööfven", "Stefan löfvenn", "Stefan löfeven" }, 100, "Sweden");
-		Quiz q4 = new Quiz("Sveriges huvudstad?", "Stockholm",
-				new String[] { "Stockholm", "Oslo", "Helsingfors", "Köpehamn" }, 100, "Sweden");
-		Quiz q5 = new Quiz("Vad heter USA's president?", "Donald Trump",
-				new String[] { "Donald Trump", "Donald Duck", "Donald Hump", "Donald Gump" }, 100, "USA");
-		Quiz q6 = new Quiz("Vem är sveriges Statsminister år 2019?", "Stefan löfven",
-				new String[] { "Stefan löfven", "Stefan lööfven", "Stefan löfvenn", "Stefan löfeven" }, 100, "Sweden");
+	public void create_quiestions(String question, String awnser, String incorrect_awnser, String genre) {
+		Quiz q1 = new Quiz(question, awnser, new String[] { awnser, incorrect_awnser }, 100, genre);
 
 		questions.add(q1);
-		questions.add(q2);
-		questions.add(q3);
-		questions.add(q4);
-		questions.add(q5);
-		questions.add(q6);
-		
+
 		Collections.shuffle(questions);
 	}
 
@@ -63,8 +47,7 @@ public class Quiz_Generator {
 					answers[3]);
 			System.out.println();
 			System.out.println("*********************************************************************************");
-			
-			
+
 		}
 	}
 
