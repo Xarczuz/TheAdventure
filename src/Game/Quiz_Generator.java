@@ -10,12 +10,14 @@ public class Quiz_Generator {
 
 	private Quiz activeQuiz;
 
-	public void create_quiestions(String question, String awnser, String incorrect_awnser, String genre) {
-		Quiz q1 = new Quiz(question, awnser, new String[] { awnser, incorrect_awnser }, 100, genre);
+	public void create_quiestions(String question, String answer, String incorrect_answer, String genre) {
+
+		Quiz q1 = new Quiz(question, answer, new String[] { incorrect_answer }, 100, genre);
 
 		questions.add(q1);
 
 		Collections.shuffle(questions);
+
 	}
 
 	public Quiz getQuestion() {
@@ -27,6 +29,7 @@ public class Quiz_Generator {
 		if (questions.size() > 0) {
 
 			this.activeQuiz = getQuestion();
+
 			System.out.println("*********************************************************************************");
 			System.out.println(this.activeQuiz.getQuestion());
 			String[] answers = this.activeQuiz.getWrong_answers();
