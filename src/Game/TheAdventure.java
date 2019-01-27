@@ -12,7 +12,7 @@ public class TheAdventure {
 		Quiz_Generator qg1 = new Quiz_Generator();
 		Quiz_Data data = new Quiz_Data();
 
-		data.quizBank();
+		data.quizBank(qg1);
 
 		// ******************
 
@@ -47,6 +47,7 @@ public class TheAdventure {
 		System.out.println("Hit q to exit\n");
 
 		while (tmp != "q") {
+
 			qg1.publish_question();
 			tmp = Scr.inStr();
 			int score = qg1.checkAnswer(tmp.toLowerCase());

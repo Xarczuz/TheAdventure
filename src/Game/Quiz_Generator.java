@@ -12,7 +12,7 @@ public class Quiz_Generator {
 
 	public void create_quiestions(String question, String answer, String incorrect_answer, String genre) {
 
-		Quiz q1 = new Quiz(question, answer, new String[] { answer, incorrect_answer }, 100, genre);
+		Quiz q1 = new Quiz(question, answer, new String[] { incorrect_answer }, 100, genre);
 
 		questions.add(q1);
 
