@@ -1,6 +1,9 @@
 package Game;
 
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -27,15 +30,16 @@ public class Quiz_Data {
 				String wrongAwnser = getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
 				String genre = getQuestion.get("category").toString();
 
-				for (String wrong : wrongAwnser.split(",")) {
+				List<String> tmp = Arrays.asList(wrongAwnser.split(","));
+				ArrayList<String> arr = new ArrayList<String>(tmp);
+				arr.add(correctAwnser);
 
-					qg1.create_quiestions(readquest, correctAwnser, wrong, genre);
-				}
+				qg1.create_quiestions(readquest, correctAwnser, arr, genre);
 
 			}
 
 		} catch (Exception e) {
-			System.out.println("Error");
+			System.out.println(e);
 		}
 
 	}

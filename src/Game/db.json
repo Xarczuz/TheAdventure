@@ -52,11 +52,11 @@
             "type": "multiple",
             "difficulty": "medium",
             "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in Ocarina of Time?",
-            "correct_answer": "2, 3, 1",
+            "correct_answer": "2  3  1",
             "incorrect_answers": [
-                "1, 2, 3",
-                "1, 3, 2",
-                "2, 1, 3"
+                "1  2  3",
+                "1  3  2",
+                "2  1  3"
             ]
         },
         {

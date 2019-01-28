@@ -10,9 +10,9 @@ public class Quiz_Generator {
 
 	private Quiz activeQuiz;
 
-	public void create_quiestions(String question, String answer, String incorrect_answer, String genre) {
+	public void create_quiestions(String question, String answer, ArrayList<String> incorrect_answer, String genre) {
 
-		Quiz q1 = new Quiz(question, answer, new String[] { answer, incorrect_answer }, 100, genre);
+		Quiz q1 = new Quiz(question, answer,  incorrect_answer , 100, genre);
 
 		questions.add(q1);
 
@@ -32,22 +32,28 @@ public class Quiz_Generator {
 
 			System.out.println("*********************************************************************************");
 			System.out.println(this.activeQuiz.getQuestion());
-			String[] answers = this.activeQuiz.getWrong_answers();
+			ArrayList<String> answers = this.activeQuiz.getWrong_answers();
 			Collections.shuffle(Arrays.asList(answers));
-			for (int i = 0; i < answers.length; i++) {
-				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 0) {
+			for (int i = 0; i < answers.size(); i++) {
+				if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers.get(i)) && i == 0) {
 					this.activeQuiz.setSelectAnswer("a");
-				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 1) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers.get(i)) && i == 1) {
 					this.activeQuiz.setSelectAnswer("b");
-				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 2) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers.get(i)) && i == 2) {
 					this.activeQuiz.setSelectAnswer("c");
-				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers[i]) && i == 3) {
+				} else if (this.activeQuiz.getAnswer().equalsIgnoreCase(answers.get(i)) && i == 3) {
 					this.activeQuiz.setSelectAnswer("d");
 				}
 			}
 			System.out.println();
-			System.out.printf("A: %-10s\tB: %-10s\tC: %-10s\tD: %-10s\n", answers[0], answers[1], answers[2],
-					answers[3]);
+			if (answers.size()<4) {
+				System.out.printf("A: %-10s\tB: %-10s", answers.get(0), answers.get(1));
+				
+			}else {
+				System.out.printf("A: %-10s\tB: %-10s\tC: %-10s\tD: %-10s\n", answers.get(0), answers.get(1), answers.get(2),
+						answers.get(3));
+				
+			}
 			System.out.println();
 			System.out.println("*********************************************************************************");
 
