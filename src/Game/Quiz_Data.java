@@ -25,7 +25,7 @@ public class Quiz_Data {
 			for (int i = 0; i < obj2.size(); i++) { // iterate over it
 
 				JSONObject getQuestion = (JSONObject) (obj2.get(i));
-				String readquest = getQuestion.get("question").toString();
+				String readquest = getQuestion.get("question").toString().replaceAll("&quot;", "\"");
 				String correctAwnser = getQuestion.get("correct_answer").toString();
 				// String wrongAwnser =
 				// getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
