@@ -1,239 +1,589 @@
 {
-    
-    "results": [
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "What name did Mario, from Super Mario Brothers, originally have?",
-            "correct_answer": "Ossan",
-            "incorrect_answers": [
-                "Jumpman",
-                "Mr. Video",
-                "Mario"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "How many times do you fight Gilgamesh in Final Fantasy 5?",
-            "correct_answer": "6",
-            "incorrect_answers": [
-                "4",
-                "5",
-                "3"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "boolean",
-            "difficulty": "easy",
-            "question": "There are 6 legendary cards in Clash Royale.",
-            "correct_answer": "False",
-            "incorrect_answers": [
-                "True"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "hard",
-            "question": "In the Animal Crossing series, which flower is erroneously called the Jacob&#039;s Ladder?",
-            "correct_answer": "Lily of the Valley",
-            "incorrect_answers": [
-                "Hydrangea",
-                "Harebell",
-                "Yarrow"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In which order do you need to hit some Deku Scrubs to open the first boss door in Ocarina of Time?",
-            "correct_answer": "2  3  1",
-            "incorrect_answers": [
-                "1  2  3",
-                "1  3  2",
-                "2  1  3"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "boolean",
-            "difficulty": "medium",
-            "question": "Metal Gear Solid V: The Phantom Pain runs on the Fox Engine.",
-            "correct_answer": "True",
-            "incorrect_answers": [
-                "False"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "What is the title of song on the main menu in Halo?",
-            "correct_answer": "Halo",
-            "incorrect_answers": [
-                "Opening Suite",
-                "Shadows",
-                "Suite Autumn"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In Terraria, which of the following items does the Martian Saucer mini-boss NOT drop?",
-            "correct_answer": "Drill Containment Unit",
-            "incorrect_answers": [
-                "Anti-Gravity Hook",
-                "Influx Waver",
-                "Cosmic Car Key"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which game was the first time Mario was voiced by Charles Martinet?",
-            "correct_answer": "Mario&#039;s Game Gallery",
-            "incorrect_answers": [
-                "Super Mario 64",
-                "Mario Tennis",
-                "Dr. Mario 64"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which of these is NOT a playable character race in the video game Starbound?",
-            "correct_answer": "Fenerox",
-            "incorrect_answers": [
-                "Floran",
-                "Novakid",
-                "Hylotl"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In the 2015 RPG Undertale, which character do you first encounter after falling down into the underground?",
-            "correct_answer": "Flowey",
-            "incorrect_answers": [
-                "Toriel",
-                "Sans",
-                "Papyrus"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which Overwatch character says the line Heroes never die!?",
-            "correct_answer": "Mercy",
-            "incorrect_answers": [
-                "Reaper",
-                "Sonic",
-                "Ana"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "What is the first primary weapon the player gets in PAYDAY: The Heist?",
-            "correct_answer": "AMCAR-4",
-            "incorrect_answers": [
-                "Brenner 21",
-                "Reinbeck",
-                "M308"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "In Mario &amp; Sonic at the Olympic Games, characters are split into how many types?",
-            "correct_answer": "4",
-            "incorrect_answers": [
-                "6",
-                "5",
-                "3"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "Who stars in Brutal Legend?",
-            "correct_answer": "Jack Black",
-            "incorrect_answers": [
-                "Kanye West",
-                "Lemmy",
-                "Ozzy Osbourne"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "How many different notes is the tune, Song of Healing, comprised of in The Legend of Zelda: Majora&#039;s Mask?",
-            "correct_answer": "3",
-            "incorrect_answers": [
-                "4",
-                "1",
-                "6"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "boolean",
-            "difficulty": "medium",
-            "question": "The Fiat Multipla is a drivable car in Forza Horizon 3.",
-            "correct_answer": "False",
-            "incorrect_answers": [
-                "True"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "What is the subtitle for Gran Turismo 3?",
-            "correct_answer": "A-Spec",
-            "incorrect_answers": [
-                "Championship",
-                "Drive",
-                "Nitro"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "hard",
-            "question": "In Guild Wars 2, what is the name of the legendary weapon that is an alicorn-styled bow?",
-            "correct_answer": "The Dreamer",
-            "incorrect_answers": [
-                "Kudzu",
-                "The Moot",
-                "Astralaria"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "hard",
-            "question": "What is the plane of existence in MicroProse&#039;s 1997 Magic the Gathering?",
-            "correct_answer": "Shandalar",
-            "incorrect_answers": [
-                "Theros",
-                "Ravnica",
-                "Amonkhet"
-            ]
-        }
-    ]
+	"response_code": 0,
+	"results": [
+		{
+			"category": "Entertainment: Books",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who wrote &quot;Harry Potter&quot;?",
+			"correct_answer": "J.K. Rowling",
+			"incorrect_answers": [
+				"J.R.R. Tolkien",
+				"Terry Pratchett",
+				"Daniel Radcliffe"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "boolean",
+			"difficulty": "medium",
+			"question": "The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.",
+			"correct_answer": "True",
+			"incorrect_answers": [
+				"False"
+			]
+		},
+		{
+			"category": "Geography",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "What country is not a part of Scandinavia?",
+			"correct_answer": "Finland",
+			"incorrect_answers": [
+				"Norway",
+				"Sweden",
+				"Denmark"
+			]
+		},
+		{
+			"category": "Entertainment: Music",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who had a 1969 top 5 hit with the song,  &#039;A Boy Named Sue&#039;?",
+			"correct_answer": "Johnny Cash",
+			"incorrect_answers": [
+				"Bob Dylan",
+				"Willie Nelson",
+				"Kris Kristofferson"
+			]
+		},
+		{
+			"category": "Entertainment: Cartoon & Animations",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What was the name of the sea witch in the 1989 Disney film &quot;The Little Mermaid&quot;?",
+			"correct_answer": "Ursula",
+			"incorrect_answers": [
+				"Madam Mim",
+				"Maleficent",
+				"Lady Tremaine"
+			]
+		},
+		{
+			"category": "Art",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Who painted the Sistine Chapel?",
+			"correct_answer": "Michelangelo",
+			"incorrect_answers": [
+				"Leonardo da Vinci",
+				"Pablo Picasso",
+				"Raphael"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "A doctor with a PhD is a doctor of what?",
+			"correct_answer": "Philosophy",
+			"incorrect_answers": [
+				"Psychology",
+				"Phrenology",
+				"Physical Therapy"
+			]
+		},
+		{
+			"category": "Entertainment: Television",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "The theme for the popular science fiction series &quot;Doctor Who&quot; was composed by who?",
+			"correct_answer": "Ron Grainer",
+			"incorrect_answers": [
+				"Murray Gold",
+				"Delia Derbyshire",
+				"Peter Howell"
+			]
+		},
+		{
+			"category": "Entertainment: Music",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "According to a Beatles song, who kept her face in a jar by the door?",
+			"correct_answer": "Eleanor Rigby",
+			"incorrect_answers": [
+				"Loretta Martin",
+				"Molly Jones",
+				"Lady Madonna"
+			]
+		},
+		{
+			"category": "Entertainment: Cartoon & Animations",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of these is NOT a Disney cartoon character?",
+			"correct_answer": "Daffy Duck",
+			"incorrect_answers": [
+				"Donald Duck",
+				"Daisy Duck",
+				"Scrooge McDuck"
+			]
+		},
+		{
+			"category": "Science: Computers",
+			"type": "boolean",
+			"difficulty": "easy",
+			"question": "The programming language &quot;Python&quot; is based off a modified version of &quot;JavaScript&quot;.",
+			"correct_answer": "False",
+			"incorrect_answers": [
+				"True"
+			]
+		},
+		{
+			"category": "Entertainment: Music",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Which one of these artists appears in the album Deltron 3030?",
+			"correct_answer": "Dan the Automater",
+			"incorrect_answers": [
+				"Lamarr Kendrick",
+				"Danger Mouse",
+				"CeeLo Green"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "boolean",
+			"difficulty": "easy",
+			"question": "Donkey Kong was originally set to be a Popeye arcade game.",
+			"correct_answer": "True",
+			"incorrect_answers": [
+				"False"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of these is NOT the name of a rival gang in the video game Saint&#039;s Row 2?",
+			"correct_answer": "The Zin Empire",
+			"incorrect_answers": [
+				"The Brotherhood",
+				"The Ronin",
+				"The Sons of Samedi"
+			]
+		},
+		{
+			"category": "Geography",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which of these is the name of the largest city in the US state Tennessee?",
+			"correct_answer": "Memphis",
+			"incorrect_answers": [
+				"Thebes",
+				"Alexandria",
+				"Luxor"
+			]
+		},
+		{
+			"category": "History",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "When was the SS or Schutzstaffel established?",
+			"correct_answer": "April 4th, 1925",
+			"incorrect_answers": [
+				"September 1st, 1941",
+				"March 8th, 1935",
+				"February 21st, 1926"
+			]
+		},
+		{
+			"category": "History",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "When did the Battle of the Somme begin?",
+			"correct_answer": "July 1st, 1916",
+			"incorrect_answers": [
+				"August 1st, 1916",
+				"July 2nd, 1916",
+				"June 30th, 1916"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "boolean",
+			"difficulty": "medium",
+			"question": "The term &quot;Spam&quot; came before the food product &quot;Spam&quot;.",
+			"correct_answer": "False",
+			"incorrect_answers": [
+				"True"
+			]
+		},
+		{
+			"category": "Vehicles",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Which of these car models are produced by Lamborghini?",
+			"correct_answer": "Aventador",
+			"incorrect_answers": [
+				"Huayra",
+				"918",
+				"Chiron"
+			]
+		},
+		{
+			"category": "Celebrities",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "When was Elvis Presley born?",
+			"correct_answer": "January 8, 1935",
+			"incorrect_answers": [
+				"December 13, 1931",
+				"July 18, 1940",
+				"April 17, 1938"
+			]
+		},
+		{
+			"category": "Entertainment: Film",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "In the movie &quot;Scream&quot; who is Ghost Face?",
+			"correct_answer": "Billy Loomis and Stu Macher",
+			"incorrect_answers": [
+				"Dewey Riley",
+				"Sidney Prescott",
+				"Archie Prescott and Philip Marv"
+			]
+		},
+		{
+			"category": "Entertainment: Music",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "What musician made the song &quot;Fuckin` Perfect&quot; in 2010?",
+			"correct_answer": "P!nk",
+			"incorrect_answers": [
+				"Mitis",
+				"Adam lambert",
+				"Koven"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "In the video game &quot;Team Fortress 2&quot;, which class is able to double jump?",
+			"correct_answer": "Scout",
+			"incorrect_answers": [
+				"Spy",
+				"Engineer",
+				"Pyro"
+			]
+		},
+		{
+			"category": "Entertainment: Music",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "&quot;Drink the Sea&quot; is an album by which electronic music artist?",
+			"correct_answer": "The Glitch Mob",
+			"incorrect_answers": [
+				"Avicii",
+				"XXYYXX",
+				"Flux Pavilion"
+			]
+		},
+		{
+			"category": "Entertainment: Film",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What was the first monster to appear alongside Godzilla?",
+			"correct_answer": "Anguirus",
+			"incorrect_answers": [
+				"King Kong",
+				"Mothra",
+				"King Ghidora"
+			]
+		},
+		{
+			"category": "Celebrities",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Where was Kanye West born?",
+			"correct_answer": "Atlanta, Georgia",
+			"incorrect_answers": [
+				"Chicago, Illinois",
+				"Los Angeles, California",
+				"Detroit, Michigan"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "boolean",
+			"difficulty": "medium",
+			"question": "Mortal Kombat was almost based on Jean-Claude Van Damme movie.",
+			"correct_answer": "True",
+			"incorrect_answers": [
+				"False"
+			]
+		},
+		{
+			"category": "Entertainment: Film",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+			"correct_answer": "Smash Mouth",
+			"incorrect_answers": [
+				"Bowling for Soup",
+				"Sum 41",
+				"Linkin Park"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "Which team won the &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; Invitational Event February 2017 in the PC Category?",
+			"correct_answer": "Continuum",
+			"incorrect_answers": [
+				"GIFU",
+				"Santos Dexterity",
+				"eRa Eternity"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "What was the first weapon pack for &quot;PAYDAY 2&quot;?",
+			"correct_answer": "The Gage Weapon Pack #1",
+			"incorrect_answers": [
+				"The Overkill Pack",
+				"The Gage Chivalry Pack",
+				"The Gage Historical Pack"
+			]
+		},
+		{
+			"category": "Politics",
+			"type": "boolean",
+			"difficulty": "hard",
+			"question": "Nazi Germany surrendered on Harry Truman&#039;s birthday while he was president.",
+			"correct_answer": "True",
+			"incorrect_answers": [
+				"False"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "What was the soft drink Pepsi originally introduced as?",
+			"correct_answer": "Brad&#039;s Drink",
+			"incorrect_answers": [
+				"Pepsin Pop",
+				"Carolina Cola",
+				"Pepsin Syrup"
+			]
+		},
+		{
+			"category": "Entertainment: Japanese Anime & Manga",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+			"correct_answer": "Envy",
+			"incorrect_answers": [
+				"Pride",
+				"Sloth",
+				"Wrath"
+			]
+		},
+		{
+			"category": "Entertainment: Film",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+			"correct_answer": "Jonathan Demme",
+			"incorrect_answers": [
+				"Stanley Kubrick",
+				"Frank Darabont",
+				"Michael Bay"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+			"correct_answer": "Cipher",
+			"incorrect_answers": [
+				"Mobius 1",
+				"Blaze",
+				"Pixy"
+			]
+		},
+		{
+			"category": "Science: Gadgets",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "Which of the following cellular device companies is NOT headquartered in Asia?",
+			"correct_answer": "Nokia",
+			"incorrect_answers": [
+				"LG Electronics",
+				"Samsung",
+				"HTC"
+			]
+		},
+		{
+			"category": "Science: Computers",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "When did the online streaming service &quot;Mixer&quot; launch?",
+			"correct_answer": "2016",
+			"incorrect_answers": [
+				"2013",
+				"2009",
+				"2011"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "boolean",
+			"difficulty": "easy",
+			"question": "&quot;Metal Gear Solid 3: Snake Eater&quot; was released in 2004.",
+			"correct_answer": "True",
+			"incorrect_answers": [
+				"False"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "In which &quot;Call of Duty&quot; game are the &quot;Apothicons&quot; introduced in the Zombies mode?",
+			"correct_answer": "Call Of Duty: Black Ops III",
+			"incorrect_answers": [
+				"Call Of Duty: Black Ops",
+				"Call Of Duty: World At War",
+				"Call Of Duty: Black Ops II"
+			]
+		},
+		{
+			"category": "Science: Computers",
+			"type": "boolean",
+			"difficulty": "medium",
+			"question": "Linus Sebastian is the creator of the Linux kernel, which went on to be used in Linux, Android, and Chrome OS.",
+			"correct_answer": "False",
+			"incorrect_answers": [
+				"True"
+			]
+		},
+		{
+			"category": "Science: Computers",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+			"correct_answer": "Transport",
+			"incorrect_answers": [
+				"Session",
+				"Data link",
+				"Network"
+			]
+		},
+		{
+			"category": "Animals",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is the collective noun for a group of crows?",
+			"correct_answer": "Murder",
+			"incorrect_answers": [
+				"Pack",
+				"Gaggle",
+				"Herd"
+			]
+		},
+		{
+			"category": "Entertainment: Film",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "What Queen song plays during the final fight scene of the film &quot;Hardcore Henry&quot;?",
+			"correct_answer": "Don&#039;t Stop Me Now",
+			"incorrect_answers": [
+				"Brighton Rock",
+				"Another Bites the Dust",
+				"We Will Rock You"
+			]
+		},
+		{
+			"category": "Geography",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "In which country is Tallinn located?",
+			"correct_answer": "Estonia",
+			"incorrect_answers": [
+				"Finland",
+				"Sweden",
+				"Poland"
+			]
+		},
+		{
+			"category": "Science & Nature",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Which planet did the &quot;Viking 1&quot; spacecraft send surface images of, starting in 1976?",
+			"correct_answer": "Mars",
+			"incorrect_answers": [
+				"Saturn",
+				"Jupiter",
+				"Venus"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "In Guild Wars 2, Brooloonu is a small village for which race?",
+			"correct_answer": "Quaggan",
+			"incorrect_answers": [
+				"Kodan",
+				"Charr",
+				"Tengu"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "In Guild Wars 2, what is Tybalt&#039;s last name?",
+			"correct_answer": "Leftpaw",
+			"incorrect_answers": [
+				"Wildeye",
+				"Blightaxe",
+				"Blackblood"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What company developed the vocaloid Hatsune Miku?",
+			"correct_answer": "Crypton Future Media",
+			"incorrect_answers": [
+				"Sega",
+				"Sony",
+				"Yamaha Corporation"
+			]
+		},
+		{
+			"category": "Entertainment: Video Games",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "In Guild Wars 2, what is the name of the legendary icy dragon-headed axe covered in scales?",
+			"correct_answer": "Frostfang",
+			"incorrect_answers": [
+				"The Juggernaut",
+				"Howler",
+				"Rodgort"
+			]
+		},
+		{
+			"category": "General Knowledge",
+			"type": "multiple",
+			"difficulty": "medium",
+			"question": "Which item of clothing is usually worn by a Scotsman at a wedding?",
+			"correct_answer": "Kilt",
+			"incorrect_answers": [
+				"Skirt",
+				"Dress",
+				"Rhobes"
+			]
+		}
+	]
 }

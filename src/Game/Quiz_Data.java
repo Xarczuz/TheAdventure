@@ -27,11 +27,14 @@ public class Quiz_Data {
 				JSONObject getQuestion = (JSONObject) (obj2.get(i));
 				String readquest = getQuestion.get("question").toString();
 				String correctAwnser = getQuestion.get("correct_answer").toString();
-				String wrongAwnser = getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
+				// String wrongAwnser =
+				// getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
+				JSONArray j = (JSONArray) getQuestion.get("incorrect_answers");
 				String genre = getQuestion.get("category").toString();
-
-				List<String> tmp = Arrays.asList(wrongAwnser.split(","));
-				ArrayList<String> arr = new ArrayList<String>(tmp);
+				ArrayList<String> arr = new ArrayList<String>();
+				for (Object object : j) {
+					arr.add(object.toString());
+				}
 				arr.add(correctAwnser);
 
 				qg1.create_quiestions(readquest, correctAwnser, arr, genre);
