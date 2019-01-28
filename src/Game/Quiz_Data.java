@@ -11,9 +11,7 @@ import org.json.simple.parser.JSONParser;
 public class Quiz_Data {
 
 	public void quizBank(Quiz_Generator qg1) {
-		// We need to provide file path as the parameter:
-		// double backquote is to avoid compiler interpret words
-		// like \test as \t (ie. as a escape sequence)
+
 		try {
 			URL url = new URL("https://opentdb.com/api.php?amount=50");
 			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
@@ -29,16 +27,14 @@ public class Quiz_Data {
 			Object obj = new JSONParser().parse(s);
 			JSONObject results = (JSONObject) obj;
 
-			JSONArray obj2 = (JSONArray) new JSONParser().parse(results.get("results").toString()); // make it into a
+			JSONArray obj2 = (JSONArray) new JSONParser().parse(results.get("results").toString());
 
-			for (int i = 0; i < obj2.size(); i++) { // iterate over it
+			for (int i = 0; i < obj2.size(); i++) {
 
 				JSONObject getQuestion = (JSONObject) (obj2.get(i));
 				String readquest = getQuestion.get("question").toString().replaceAll("&quot;", "\"")
 						.replaceAll("[&][#0-9]+[;]", "");
 				String correctAwnser = getQuestion.get("correct_answer").toString().replaceAll("[&#][0-9]+[;]", "");
-				// String wrongAwnser =
-				// getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
 				JSONArray j = (JSONArray) getQuestion.get("incorrect_answers");
 				String genre = getQuestion.get("category").toString();
 				ArrayList<String> arr = new ArrayList<String>();
