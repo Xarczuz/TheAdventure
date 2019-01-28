@@ -26,7 +26,11 @@ public class Quiz_Data {
 				String correctAwnser = getQuestion.get("correct_answer").toString();
 				String wrongAwnser = getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
 				String genre = getQuestion.get("category").toString();
-				qg1.create_quiestions(readquest, correctAwnser, wrongAwnser, genre);
+
+				for (String wrong : wrongAwnser.split(",")) {
+
+					qg1.create_quiestions(readquest, correctAwnser, wrong, genre);
+				}
 
 			}
 
