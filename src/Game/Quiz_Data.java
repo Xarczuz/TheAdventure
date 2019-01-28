@@ -1,10 +1,9 @@
 package Game;
 
-import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -16,8 +15,18 @@ public class Quiz_Data {
 		// double backquote is to avoid compiler interpret words
 		// like \test as \t (ie. as a escape sequence)
 		try {
-
-			Object obj = new JSONParser().parse(new FileReader(".\\src\\Game\\db.json"));
+			URL url = new URL("https://opentdb.com/api.php?amount=50");
+			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+			String s = "";
+			while (true) {
+				String tmp = in.readLine();
+				if (tmp == null) {
+					break;
+				}
+				s += tmp;
+			}
+			// Object obj = new JSONParser().parse(new FileReader(".\\src\\Game\\db.json"));
+			Object obj = new JSONParser().parse(s);
 			JSONObject results = (JSONObject) obj;
 
 			JSONArray obj2 = (JSONArray) new JSONParser().parse(results.get("results").toString()); // make it into a
@@ -25,8 +34,9 @@ public class Quiz_Data {
 			for (int i = 0; i < obj2.size(); i++) { // iterate over it
 
 				JSONObject getQuestion = (JSONObject) (obj2.get(i));
-				String readquest = getQuestion.get("question").toString().replaceAll("&quot;", "\"");
-				String correctAwnser = getQuestion.get("correct_answer").toString();
+				String readquest = getQuestion.get("question").toString().replaceAll("&quot;", "\"")
+						.replaceAll("[&][#0-9]+[;]", "");
+				String correctAwnser = getQuestion.get("correct_answer").toString().replaceAll("[&#][0-9]+[;]", "");
 				// String wrongAwnser =
 				// getQuestion.get("incorrect_answers").toString().replaceAll("\\[|\\]", "");
 				JSONArray j = (JSONArray) getQuestion.get("incorrect_answers");
