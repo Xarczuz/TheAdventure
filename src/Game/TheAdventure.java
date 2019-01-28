@@ -2,9 +2,11 @@ package Game;
 
 import java.io.IOException;
 
+import org.json.simple.parser.ParseException;
+
 public class TheAdventure {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, ParseException {
 
 		System.out.print("The Adventure Quiz Game!\n");
 		String tmp = "";

@@ -10,9 +10,9 @@ public class Quiz_Generator {
 
 	private Quiz activeQuiz;
 
-	public void create_quiestions(String question, String answer, ArrayList<String> incorrect_answer, String genre) {
+	public void create_quiestions(String question, String answer, ArrayList<String> incorrect_answer,int difficulty, String genre) {
 
-		Quiz q1 = new Quiz(question, answer,  incorrect_answer , 100, genre);
+		Quiz q1 = new Quiz(question, answer,  incorrect_answer , difficulty, genre);
 
 		questions.add(q1);
 
