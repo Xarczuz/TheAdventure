@@ -58,7 +58,7 @@ public class TheAdventure {
 			} else {
 				p1.setPlayer_lives(p1.getPlayer_lives() - 1);
 				p1.setPlayer_score(p1.getPlayer_score() - score);
-				System.out.println("Wrong!, Score: -" + score);
+				System.out.println("Wrong!, Score: -" + score + " Right answer:" + qg1.getActiveQuiz().getAnswer());
 			}
 			p1.player_stats();
 			if (p1.getPlayer_lives() == 0 || qg1.getQuestions().isEmpty() || tmp.equalsIgnoreCase("q")) {
