@@ -38,7 +38,7 @@ public class Quiz_Data {
 
 			JSONObject getQuestion = (JSONObject) (obj2.get(i));
 			String readquest = getQuestion.get("question").toString().replaceAll("&quot;", "\"")
-					.replaceAll("[&][#0-9]+[;]", "");
+					.replaceAll("[&][#0-9]+[;]", "").replaceAll("&amp;","&");
 			String correctAwnser = getQuestion.get("correct_answer").toString().replaceAll("[&#][0-9]+[;]", "");
 			JSONArray j = (JSONArray) getQuestion.get("incorrect_answers");
 			String genre = getQuestion.get("category").toString();

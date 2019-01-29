@@ -41,12 +41,13 @@ public class TheAdventureQuizUI extends Application {
 		btn.setText("New Question.");
 		btn.setLayoutX(10);
 		btn.setLayoutY(450);
-		
+
 		btn.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
 				qg1.publish_question();
 				t.setText(qg1.getActiveQuiz().getQuestion());
+
 				primaryStage.show();
 			}
 		});
@@ -60,9 +61,9 @@ public class TheAdventureQuizUI extends Application {
 		primaryStage.show();
 
 	}
-	
+
 	public static void name() {
-		
+
 	}
 
 }
