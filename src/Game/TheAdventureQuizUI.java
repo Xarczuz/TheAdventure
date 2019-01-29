@@ -36,13 +36,13 @@ public class TheAdventureQuizUI extends Application {
 		Button btn = new Button();
 		qg1.publish_question();
 		t.setText(qg1.getActiveQuiz().getQuestion());
-		t.setLayoutX(100);
+		t.setLayoutX(200);
 		t.setLayoutY(100);
-		btn.setText("Say 'Hello World'");
-		btn.setLayoutX(200);
-		btn.setLayoutY(200);
+		btn.setText("New Question.");
+		btn.setLayoutX(10);
+		btn.setLayoutY(450);
+		
 		btn.setOnAction(new EventHandler<ActionEvent>() {
-
 			@Override
 			public void handle(ActionEvent event) {
 				qg1.publish_question();
